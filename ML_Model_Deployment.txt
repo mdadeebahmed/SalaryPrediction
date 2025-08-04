@@ -1,0 +1,214 @@
+Machine learning model deployment:
+----------------------------------
+
+- There many ways to deploy ML model in real time.
+- Once we prepared ML model then deployement will be taken care by Sr.Data Scientist or Lead from the team.
+
+	- We should not deliver direct code to the client.
+	- We should share one url to the client to access ml model.
+
+
+
+
+
+
+
+-----------------------------------------------------------------
+
+What is deployment?
+
+
+Gmail application
+-----------------
+
+- Gmail is kind of web application
+
+- What do you mean by web application?
+
+- Web application is a kind of application we can access over internet.
+
+- Web application is combination of different components
+	- html files
+	- images
+	- css file
+	- java script files
+	- python files
+	- some folders
+	- etc
+
+- Purpose of gmail application
+	- Its a kind of domain which is providing mails to everyone
+
+
+
+
+Assuming that creator of gmail application is Daniel
+----------------------------------------------------
+
+- By using this application, he wants to provide gmail ids to everyone
+- Then what Daniel need to do?
+
+- He need to deploy/put this gmail application in server.
+
+- Once deployed then he needs to share one common url to everyone.
+- Then everyone needs to open this by using below url
+
+- www.gmail.com
+
+
+http://www.gmail.com/ 					deployed by Daniel into server
+
+http://www.asldfhasdjffhaskd.com/		invalid app/not deployed into the server
+
+
+What is server?
+---------------
+
+- Server is program which run 24/7 mode
+- In server all web applications will be deployed to access this globe
+
+---------------------------------------------------------------------
+
+Hey Nireekshan I have one dataset, i have implemented machine learning model, then can i deploy that ml model into the server...
+
+Yes we can do, today we are going to learn about that
+
+---------------------------------------------------------------------
+Problem statement:
+------------------
+
+Few product based companies
+
+- Lets work on one scenario like,
+	
+	Salary = Exp + Test_Score + Interview_performance ?/10  
+
+
+---------------------------------------------------------------------
+
+
+print(regressor.predict([[2, 9, 6]]))
+
+
+[52062.76112208]
+
+
+Exp		-	2
+Test_s	-	9
+Inter_S	-	6
+
+Result	-	[52062.76112208]
+			52062.76
+
+---------------------------------------------------------------------
+
+Steps:
+------
+1. Unzip the file
+2. Open the folder
+3. Install web application framework library
+	pip install flask
+	
+4. run app.py file by using below command
+	py app.py
+
+5. hit below url
+
+
+http://127.0.0.1:5000/
+
+http://localhost:5000
+
+
+---------------------------------------------------------------------
+
+
+How we deployed our ml model?
+
+Teams in Software company
+-------------------------
+	
+1. UI team				--->	User Interface Team
+								html, javascript, jquery, css, angularJS
+	
+2. Middleware team		--->	Java, Dotnet, Php etc
+
+3. DB team				--->	Database team
+	
+4. BigData team			--->	Data engineer: Python + Pandas
+
+5. ML Team				--->	Machine Learning Engineer: Creating models
+
+6. Data Science Team	--->	These guys will analyze the model to confirm
+
+
+Question:
+----------
+Who start the server?								-	Middle ware [Dev ser]
+													-	cloud team [Prod ser]
+													
+Who will create web application?					-	UI + Middle
+Who will create ml model?							-	ML team
+who will analyze and confirm the model to deploy?	- 	Data Scientist
+
+
+
+Difference servers
+
+	-> Development Server
+	-> Testing Server
+	-> Staging Server
+	-> Production Server
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------
+
+www.nireekshan.com
+
+Where i have deployed this website?
+
+in godaddy server i have deployed	-	yearly x money
+
+
+-------------------------------------------------------------------
+
+for ml model who will provide the server?
+
+- django		-	web application Middle ware
+- flask			-	web application Middle ware
+- stream-lite	-	web application Middle ware
+- etc
+
+above framework by default provide the server
+
+I have faced this question many times
+
+model.pkl
+
+What is a pickle file
+
+?
+
+
+This pickle file we need to give web application team
+
+our task will be done
+
+web application team will configure this picklet to web applicationo
+
+
+-----------------------------------------------------------------------

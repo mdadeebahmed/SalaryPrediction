@@ -1,5 +1,5 @@
 # This is web application app
-
+import os
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
@@ -25,4 +25,4 @@ def predict():
     return render_template('index.html', prediction_text='Employee Salary should be $ {}'.format(output))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
